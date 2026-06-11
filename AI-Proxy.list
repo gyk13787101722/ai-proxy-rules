@@ -19,9 +19,22 @@ DOMAIN-SUFFIX,api.anthropic.com
 DOMAIN-SUFFIX,claudeusercontent.com
 
 # Google / Gemini
-DOMAIN-SUFFIX,gemini.google.com
-DOMAIN-SUFFIX,aistudio.google.com
+# Gemini 必须优先走代理（最关键）
+DOMAIN,gemini.google.com
+DOMAIN,aistudio.google.com
 DOMAIN-SUFFIX,generativelanguage.googleapis.com
+DOMAIN-SUFFIX,googleusercontent.com
+
+# 谷歌全量域名（2026 最新）
+DOMAIN-SUFFIX,google.com
+DOMAIN-SUFFIX,googleapis.com
+DOMAIN-SUFFIX,google.co
+DOMAIN-SUFFIX,google.net
+DOMAIN-SUFFIX,google.org
+DOMAIN-SUFFIX,ggpht.com
+DOMAIN-SUFFIX,gstatic.com
+DOMAIN-SUFFIX,youtube.com
+DOMAIN-SUFFIX,ytimg.com
 
 # xAI / Grok
 DOMAIN-SUFFIX,x.ai
