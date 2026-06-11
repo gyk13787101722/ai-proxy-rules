@@ -1,0 +1,34 @@
+# Loon AI 专用分流规则 - ChatGPT + Claude + Gemini + Grok
+# 更新日期：2026
+
+# OpenAI / ChatGPT
+DOMAIN-SUFFIX,openai.com
+DOMAIN-SUFFIX,chatgpt.com
+DOMAIN-SUFFIX,chat.openai.com
+DOMAIN-SUFFIX,api.openai.com
+DOMAIN-SUFFIX,oaiusercontent.com
+DOMAIN-SUFFIX,oaistatic.com
+DOMAIN-SUFFIX,oaistatsig.com
+DOMAIN-SUFFIX,auth.openai.com
+
+# Anthropic / Claude
+DOMAIN-SUFFIX,anthropic.com
+DOMAIN-SUFFIX,claude.ai
+DOMAIN-SUFFIX,claude.com
+DOMAIN-SUFFIX,api.anthropic.com
+DOMAIN-SUFFIX,claudeusercontent.com
+
+# Google / Gemini
+DOMAIN-SUFFIX,gemini.google.com
+DOMAIN-SUFFIX,aistudio.google.com
+DOMAIN-SUFFIX,generativelanguage.googleapis.com
+
+# xAI / Grok
+DOMAIN-SUFFIX,x.ai
+DOMAIN-SUFFIX,grok.x.ai
+DOMAIN-SUFFIX,grok.com
+DOMAIN-SUFFIX,api.x.ai
+DOMAIN-SUFFIX,grok.x.com
+
+# 补充
+DOMAIN-SUFFIX,cdn.oaistatic.com
